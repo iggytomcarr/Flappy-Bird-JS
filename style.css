@@ -1,0 +1,40 @@
+body {
+    margin:  0px;
+}
+
+.game-container {
+    width : 500px;
+    height : 730px;
+    position: absolute;
+    left: 80px;
+}
+
+.sky {
+    background-image: url("fb-game-background.png");
+    width: 500px;
+    height: 580px;
+    position: absolute;
+}
+
+.ground {
+    background-image: url("bottom-background.png");
+    width: 500px;
+    height: 150px;
+    top: 580px;
+    position: absolute;
+    z-index: +1;
+}
+
+.bird {
+    background-image: url("flappy-bird.png");
+    position: absolute;
+    width: 60px;
+    height: 45px;
+}
+
+.obstacle {
+    background-image: url("flappybird-pipe.png");
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}
